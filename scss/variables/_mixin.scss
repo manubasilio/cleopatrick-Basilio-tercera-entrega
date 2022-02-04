@@ -1,0 +1,7 @@
+@mixin fontStyle {
+    color: $colorH2;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}

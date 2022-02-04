@@ -1,0 +1,29 @@
+.yt{
+    color: $colorYT
+}
+
+.tw{
+    color: $colorTwitter;
+}
+
+.sp{
+    color: $colorSpotify
+}
+
+.ig{
+    color: $colorIG;
+}
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    background-color: $colorMarco;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 50px;
+}
+
+.footer:hover {
+    background-image: $colorFooter;
+}

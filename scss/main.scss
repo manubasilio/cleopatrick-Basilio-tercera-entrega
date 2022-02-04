@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import './variables/colores';
+@import './variables/extend';
+@import './variables/mixin';
+@import './variables/maps';
+
+@import './secciones/header';
+@import './secciones/index';
+@import './secciones/footer';
+@import './secciones/aside';
+

@@ -1,0 +1,9 @@
+$font-sizes: (
+    h1: 100px,
+    );
+
+@each $etiqueta, $tamanio in $font-sizes {
+    #{$etiqueta} {
+        font-size: $tamanio;
+    }
+}

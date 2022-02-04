@@ -1,0 +1,8 @@
+.header {
+    grid-area: header;
+    background-color: $colorMarco;
+}
+
+.header:hover {
+    background-image: $colorHeader ;
+}
